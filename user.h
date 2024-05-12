@@ -1,5 +1,7 @@
 #include <iostream>
 #include "sortable.h"
+#ifndef _USER_H_
+#define _USER_H_
 
 class User: public Sortable
 {
@@ -15,3 +17,4 @@ private:
     std::string name;
     std::string lastname;
 };
+#endif

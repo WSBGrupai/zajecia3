@@ -1,10 +1,12 @@
 #include <iostream>
 #include "sortable.h"
+#ifndef _BOOK_H_
+#define _BOOK_H_
 
 class Book: public Sortable
 {
 public:
-    Book(const std::string& name, const std::string& title, const std::string& author);
+    Book(const std::string& title, const std::string& author);
 
     void ToggleLoanable();
     void Display();
@@ -12,8 +14,9 @@ public:
     bool GetLoanable() const;
 
 private:
-    std::string name;
     std::string title;
     std::string author;
     bool loanable;
 };
+
+#endif
