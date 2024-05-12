@@ -6,4 +6,6 @@ int main()
 
     a.Display();
     b.Display();
+    a.Display();
+
 }

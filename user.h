@@ -8,9 +8,10 @@ public:
 
     std::string GetSortValue() const;
     void Display();
-    
+
 private:
-    std::string id;
+    static int userCount;
+    int id;
     std::string name;
     std::string lastname;
 };
