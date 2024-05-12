@@ -9,10 +9,6 @@ public:
     }
     void Bar(); // deklaracja metody Bar
 };
-void Foo::Bar() // definicja metody Bar
-{
-    std::cout << "Hello from Bar metod \n"; 
-}
 
 void Bar(); //deklaracja funkcji
 
