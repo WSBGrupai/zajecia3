@@ -1,6 +1,6 @@
 #include <iostream>
+#include "second.h"
 
-void foo ();
 int main () 
 {
     std::cout << " Hello from main" <<  std::endl;
