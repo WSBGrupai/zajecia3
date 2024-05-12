@@ -7,7 +7,3 @@ int main ()
     foo();
     return 0; 
 }
-void foo ()
-{ 
-    std::cout << "Hello from foo \n"; 
-}
