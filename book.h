@@ -9,6 +9,7 @@ public:
     void ToggleLoanable();
     void Display();
     std::string GetSortValue() const;
+    bool GetLoanable() const;
 
 private:
     std::string name;
