@@ -1,15 +1,6 @@
 #include <iostream>
 #include "second.h"
 
-class Foo{ //deklaracja klasy Foo
-public:
-    Foo()
-    {
-        std::cout<< "invocation of Foo ctr\n" ;
-    }
-    void Bar(); // deklaracja metody Bar
-};
-
 void Bar(); //deklaracja funkcji
 
 int main () 
